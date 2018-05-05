@@ -8,7 +8,33 @@ sudo apt install `cat list.texlive`
 - 下载latexmk
 编译命令 `latexmk filename.tex`
 清空命令 `latexmk -c`
+# Method
+- 指定坐标
+```tex
+\node (node_name) at (0, 0) {Display_text};
+\node (b) at +(0: 1.5) {B};
+```
 
+- foreach
+```tex
+\foreach \from/\to in {a/b, b/c, c/a}
+  \draw [->] (\from) -- (\to);
+```
+
+
+# Example
+##
+
+```tex
+\begin{tikzpicture}[scale=.9, transform shape]
+  \tikzstyle{every node} = [circle, fill=gray!30]
+    \node (a) at (0, 0) {A};
+    \node (b) at +(0: 1.5) {B};
+    \node (c) at +(60: 1.5) {C};
+    \foreach \from/\to in {a/b, b/c, c/a}
+      \draw [->] (\from) -- (\to);
+\end{tikzpicture}
+```
 
 ## windows
 - [下载ISO文件](https://ctan.org/tex-archive/systems/texlive/Images/)

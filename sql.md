@@ -1,3 +1,6 @@
+# 目录
+[toc]
+
 # 基础命令
 - SELECT - 从数据库中提取数据
 - UPDATE - 更新数据库中的数据
@@ -11,12 +14,26 @@
 - CREATE INDEX - 创建索引（搜索键）
 - DROP INDEX - 删除索引
 
-# 创建
-## 创建数据库
+# 注释
+```SQL
+# abc
+SELECT * -- abc
+from table_name;
+/*abc*/
+```
+# 流程
+- 创建数据库
+- 使用数据库
+- 新建表
+
+# 数据库结构
+## 库相关
+### 创建数据库
 ```sql
 CREATE DATABASE dbname;
 ```
-## 创建表
+## 表相关
+### 新建表
 ```sql
 CREATE TABLE table_name
 (
@@ -29,7 +46,8 @@ column_name3 data_type(size),
 
 - NOT NULL - 指示某列不能存储 NULL 值。
 - UNIQUE - 保证某列的每行必须有唯一的值。
-- PRIMARY KEY - NOT NULL 和 UNIQUE 的结合。确保某列（或两个列多个列的结合）有唯一标识，有助于更容易更快速地找到表中的一个特定的记录。
+- PRIMARY KEY - NOT NULL 和 UNIQUE 的结合。
+确保某列（或两个列多个列的结合）有唯一标识，有助于更容易更快速地找到表中的一个特定的记录。
   - 初始主键
   ```sql
   PRIMARY KEY (P_Id)
@@ -66,8 +84,39 @@ column_name3 data_type(size),
 - DEFAULT - 规定没有给列赋值时的默认值。
 
 # 新增记录
+```sql
+INSERT ()
+into table_name;
 ```
-INSERT
+# 查询
+## 基础
+### distinct 唯一值
+去除重复值，必须放在列名的前面，作用于所有列，不仅仅作用于其后的那一列
+```sql
+SELECT distinct column_name
+from table_name;
+```
+### top 前几行
+```SQL
+SELECT top 5 column_name
+from table_name;
+```
+### offset
+```SQL
+SELECT column_name
+from table_name
+limit 5 offset 5;
+```
+从第5行开始取5行数据，第一个检索行是第0行
+
+## 排序
+### order by
+取一个或多个列的名字，据此对输出进行排序，默认字母顺序。
+order by子句必须位于最后一条子句
+```SQL
+SELECT column_name
+from table_name
+order by column_name;
 ```
 # 参考
 [SQL 教程 | 菜鸟教程](http://www.runoob.com/sql/sql-tutorial.html)
