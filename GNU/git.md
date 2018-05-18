@@ -8,19 +8,26 @@ git remote add origin https://github.com/z54/Operating-system-exploration.git
 git push -u origin master
 ```
 ## multi remote
-- 增加第一个地址
-```bash
-git remote add origin <url1>
+### 方法1: 命令修改
+- 增加
+	- 增加第一个地址`git remote add origin <url1>`
+	- 增加第二个地址`git remote set-url --add origin <url2>`
+- 删除`git remote rm <主机名>`
+### 方法2: 修改配置
 ```
-- 然后增加第二个地址
-```bash
-git remote set-url --add origin <url2>
+[remote "origin"]
+	url = https://github.com/z54/Notes.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+	url = http://cs3.swfu.edu.cn/~20141156047/Notes.git
 ```
-- 增加第三个地址
-```bash
-git remote set-url --add origin <url3>
+## 强制覆盖云
+`git push --force`
+## 强制覆盖本地
+```git
+git fetch --all
+git reset --hard origin/master 
+git pull
 ```
-
 ## config
 ```bash
 [user]
@@ -32,7 +39,7 @@ git remote set-url --add origin <url3>
 	co = checkout
 	br = branch
 	ps = push -u origin master
-	ad = remote set-url --add origin
+	ad = remote set-url --add origin <url>
 [credential]
 	helper=store
 ```
