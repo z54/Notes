@@ -16,5 +16,10 @@
 - **gcc-make-run**
   - F6 运行
 
+## python 环境
+1. 安装python
+2. 插件atom-python-run
+    - F5 运行
+
 ### 参考
 - [Atom安装并配置C/C++开发环境](https://blog.csdn.net/qq_36731677/article/details/54609583)

@@ -43,6 +43,12 @@ git pull
 [credential]
 	helper=store
 ```
+## usage
+| /                | /                            |
+| ---------------- | ---------------------------- |
+| 取消某文件的修改 | `git checkout -- readme.txt` |
+| 回滚到上一版本   | `git reset --hard HEAD~1  `  |
+
 # fatal
 ## fatal: remote origin already exists.
 ```

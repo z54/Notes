@@ -1,15 +1,23 @@
-# QQ联系
+# 基础操作
+
+## 单元格内换行
+
+在单元格中输入数据时，只要按下“Alt+Enter”组合键即可直接在单元格光标所在处换行。
+
+# 扩展公式
+
+## QQ联系
 ```excel
 =HYPERLINK("tencent://Message/?websiteName=qzone.qq.com&Menu=yes&Uin="&A3,"点击联系我")
 ```
 
-# 迷你位图
+## 迷你位图
 ```excel
 =REPT（text，number_times)
 =REPT("▍",B2/10)
 ```
 
-# 自动翻译
+## 自动翻译
 ```excel
 =FILTERXML(WEBSERVICE("http://fanyi.youdao.com/translate?&i="&A2&"&doctype=xml&version"),"//translation")
 ```
