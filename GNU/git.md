@@ -27,18 +27,6 @@ git push -u origin master
 	url = http://cs3.swfu.edu.cn/~20141156047/Notes.git
 ```
 
-## 强制覆盖云
-
-`git push --force`
-
-## 强制覆盖本地
-
-```git
-git fetch --all
-git reset --hard origin/master 
-git pull
-```
-
 ## config
 
 ```bash
@@ -56,12 +44,39 @@ git pull
 	helper=store
 ```
 
-## usage
+# usage
 
 | /                | /                            |
 | ---------------- | ---------------------------- |
 | 取消某文件的修改 | `git checkout -- readme.txt` |
 | 回滚到上一版本   | `git reset --hard HEAD~1  `  |
+
+## add
+| /                | /                            |
+| ---------------- | ---------------------------- |
+| 添加指定文件到暂存区 |`git add [file1] [file2] ...`|
+| 添加指定目录到暂存区，包括子目录 | `git add [dir]`|
+| 添加当前目录的所有文件到暂存区 | `git add .`|
+
+## rm
+
+| /                | /                            |
+| ---------------- | ---------------------------- |
+| 删除工作区文件，并且将这次删除放入暂存区 | `git rm [file1] [file2] ...`|
+| 停止追踪指定文件，但该文件会保留在工作区 | `git rm --cached [file]` |
+| 添加指定目录到暂存区，包括子目录 | `git add [dir]` |
+
+## 强制覆盖云
+
+`git push --force`
+
+## 强制覆盖本地
+
+```git
+git fetch --all
+git reset --hard origin/master 
+git pull
+```
 
 # fatal
 
@@ -71,3 +86,5 @@ git pull
 $ git remote rm origin
 $ git remote add origin https://github.com/z54/Operating-system-exploration.git
 ```
+
+## ..
