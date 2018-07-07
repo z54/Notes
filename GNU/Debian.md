@@ -44,21 +44,8 @@
 8.  Finish the installation
     - Continue
 
-# Tip
 
-- 无法启动，进入救援rescue模式
-
-``` bash
-ls (hd0,gpt8)
-set root=(hd0,gpt8)
-set prefix=(hdq,gpt8)/boot/grub
-insmod normal
-Normal
-sudo update-grub
-sudo grub-install /dev/sda
-```
-
-# Config
+# Initial Config
 
 ``` bash
 NormalUser=`cat /etc/group | grep 1000 | cut -d ":" -f 1`
@@ -89,5 +76,19 @@ sudo cp ~/dotfile/etc/default/locale /etc/default
 sudo cp ~/dotfile/etc/default/keyboard /etc/default
 sudo dpkg-reconfigure locales
 sudo reboot
+```
+
+# Tip
+
+- 无法启动，进入救援rescue模式
+
+``` bash
+ls (hd0,gpt8)
+set root=(hd0,gpt8)
+set prefix=(hdq,gpt8)/boot/grub
+insmod normal
+Normal
+sudo update-grub
+sudo grub-install /dev/sda
 ```
 
