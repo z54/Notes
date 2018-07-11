@@ -29,6 +29,7 @@ git reset --hard origin/master
 git pull
 ```
 ## config
+
 ```bash
 [user]
 	email = xxx@xxx.com
@@ -43,6 +44,7 @@ git pull
 [credential]
 	helper=store
 ```
+
 ## usage
 | /                | /                            |
 | ---------------- | ---------------------------- |
@@ -50,7 +52,9 @@ git pull
 | 回滚到上一版本   | `git reset --hard HEAD~1  `  |
 
 # fatal
+
 ## fatal: remote origin already exists.
+
 ```
 $ git remote rm origin
 $ git remote add origin https://github.com/z54/Operating-system-exploration.git

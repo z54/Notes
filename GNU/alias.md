@@ -1,6 +1,9 @@
 # location
+
 `/home/username/.bashrc`
+
 # alias
+
 ```bash
 #thesis
 alias src='cd /home/sunforx/mount/f/Documents/OS/Graduation/ZOS/src'
