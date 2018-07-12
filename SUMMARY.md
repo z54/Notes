@@ -24,6 +24,8 @@
         * [Data Struct](NETM/Major/Data Struct.md)
             * [Algorithm](NETM/Major/Algorithm/README.md)
                 * [KMP](NETM/Major/Algorithm/KMP.md)
+    * [Math](NETM/Math/README.md)
+        
 * [Network](Network/README.md)
     * [experiment](Network/Experiment/README.md)
         * [simple_serve](Network/Experiment/simple_serve.md)
