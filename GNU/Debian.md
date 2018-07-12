@@ -3,7 +3,7 @@
 1. Debian GNU/Linux installer boot menu
     - `Installer`
 2. Select a language
-    - English - English
+    - English
 3. Select your location
     - other -> Asia -> China
 4. Configure locales
@@ -15,35 +15,32 @@
 
 6. configure the network
     - Hostname: debian
-    - Domain name:
-2. Set up users and passwords
+7. Set up users and passwords
     - Root password: 1
     - Re-enter password to verify: 1
     - Full name for the new user: zach
     - Username for your account: zach
     - Choose a password for the new user: 1
     - Re-enter password to verify: 1
-3. Parition disks
+8. Parition disks
     - Partitioning method: Guided - use entire disk and set up lvm
     - Select disk to parition: SCSI1 (0,0,0) (sda) - 21.5 GB VMware, VMware Virtual S
     - Partitioning scheme: Separate /home partition
     - Write the changes to disk s and configure LVM? Yes
     - Finish patitioning and write changes to disk
     - Write the changes to disks? Yes
-4. Configure the package manager
+9. Configure the package manager
     - No
-    - Debian archive mirror country: <back>
     - Continue without a network mirror? Yes
-5.  Configuring popularity-contest
+10.  Configuring popularity-contest
     - No
-6.  Software selection
+11.  Software selection
     - Null
-7.  Install the GRUB boot loader on a hard disk
+12.  Install the GRUB boot loader on a hard disk
     - Install the GRUB loader to the mastaer boot record? Yes
     - Device for boot loader installation: /dev/sda
-8.  Finish the installation
+13.  Finish the installation
     - Continue
-
 
 # Initial Config
 
@@ -91,4 +88,3 @@ Normal
 sudo update-grub
 sudo grub-install /dev/sda
 ```
-
