@@ -1,30 +1,12 @@
 # initial
 
-```
+```bash
 echo "# Operating-system-exploration" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
 git remote add origin https://github.com/z54/Operating-system-exploration.git
 git push -u origin master
-```
-
-## multi remote
-
-### 方法1: 使用命令修改
-
-- 增加
-	- 增加第一个地址`git remote add origin <url1>`
-	- 增加第二个地址`git remote set-url --add origin <url2>`
-- 删除`git remote rm <主机名>`
-
-### 方法2: 使用配置修改
-
-```
-[remote "origin"]
-	url = https://github.com/z54/Notes.git
-	fetch = +refs/heads/*:refs/remotes/origin/*
-	url = http://cs3.swfu.edu.cn/~20141156047/Notes.git
 ```
 
 ## config
@@ -39,7 +21,6 @@ git push -u origin master
 	co = checkout
 	br = branch
 	ps = push -u origin master
-	ad = remote set-url --add origin <url>
 [credential]
 	helper=store
 ```
@@ -66,6 +47,24 @@ git push -u origin master
 | 停止追踪指定文件，但该文件会保留在工作区 | `git rm --cached [file]` |
 | 添加指定目录到暂存区，包括子目录 | `git add [dir]` |
 
+## multi remote
+
+### 方法1: 使用命令修改
+
+- 增加
+	- 增加第一个地址`git remote add origin <url1>`
+	- 增加第二个地址`git remote set-url --add origin <url2>`
+- 删除`git remote rm <主机名>`
+
+### 方法2: 使用配置修改
+
+```
+[remote "origin"]
+	url = https://github.com/z54/Notes.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+	url = http://cs3.swfu.edu.cn/~20141156047/Notes.git
+```
+
 ## 强制覆盖云
 
 `git push --force`
@@ -74,15 +73,16 @@ git push -u origin master
 
 ```git
 git fetch --all
-git reset --hard origin/master 
+git reset --hard origin/master
 git pull
 ```
 
 ## ignore 忽略文件（指定文件/文件夹 不同步）
+
 添加.gitignore 文件
 内容如
 
-```bash
+```
 # 文件（*为通配符）
 
 *.exe
@@ -100,7 +100,8 @@ music
 # commit
 
 ## message formation
-```
+
+```bash
 <type>(<scope>): <subject>
 <BLANK LINE>
 <body>
@@ -133,5 +134,3 @@ music
 $ git remote rm origin
 $ git remote add origin https://github.com/z54/Operating-system-exploration.git
 ```
-
-## ..
