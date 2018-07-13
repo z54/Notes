@@ -2,7 +2,7 @@
 
 ## 基础扩展
 
-- **Atom Simplified Chinese Menu Master**
+- 汉化 **Atom Simplified Chinese Menu Master**
 
 ## Atom & gcc
 
@@ -11,22 +11,21 @@
     1. 安装MinGW
     2. 添加系统变量PATH
 3. 配置Atom编译环境-插件
-    - **linter-gcc**
-    - **linter**
-    - **gcc-make-run**
+    / |/
+    -|-
+    linter-gcc <br> linter <br> gcc-make-run | c语言环境
 
   > F6 运行
 
 ## Atom & python
 
 1. 安装python
-2. 插件atom-python-run
-    - F5 运行
+2. 插件 **atom-python-run**
+> F5 运行
 
 ## Atom & markdown
 
-1. 插件
-  - **markdown-preview-enhanced**
+1. **markdown-preview-enhanced**
 
 # Usage
 - 格式化

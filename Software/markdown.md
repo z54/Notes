@@ -87,7 +87,7 @@ Content in the first column | Content in the second column | Content in the thir
 
 # fatal
 - 竖线用 `&#124;` 或者 `&#x7C;` 来代替
+- 行内换行 `<br>`
 
 # 参考
 - [Mastering Markdown · GitHub Guides](https://guides.github.com/features/mastering-markdown/)
-
