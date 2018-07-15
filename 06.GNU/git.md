@@ -55,7 +55,7 @@ git push -u origin master
 	- 增加第一个地址`git remote add origin <url1>`
 	- 增加第二个地址`git remote set-url --add origin <url2>`
 - 删除`git remote rm <主机名>`
-
+- 查询`git remote -v`
 ### 方法2: 使用配置修改
 
 ```
