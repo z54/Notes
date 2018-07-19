@@ -4,7 +4,7 @@
 
 ### 命令模式（所有快捷键的基准模式）
 
-\ | \ 
+\ | \
 |---|---|
 `:w` | 保存
 `:q` | 退出
@@ -56,7 +56,7 @@
 `P` | 粘贴到当前位置前
 
 ## 其他
- 
+
  \ |\
  -|-
 `\word` | 搜索word关键词
@@ -71,5 +71,12 @@
 `set nu` | 显示行号
 `set nonu` | 隐藏行号
 
- # Reference
+# fatal
+
+1. [vi下保存只读文件（“read-only”）](http://blog.sciencenet.cn/blog-685489-563222.html)
+    1. `:w ！sudo tee%`
+    2. 输入root密码
+    3. done
+
+# Reference
 [Linux vi/vim | 菜鸟教程](http://www.runoob.com/linux/linux-vim.html)
