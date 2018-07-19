@@ -30,6 +30,8 @@ __This will also be bold__
 
 _You **can** combine them_
 
+~~删除线~~
+
 As Kanye West said:
 
 > We're living the future so
