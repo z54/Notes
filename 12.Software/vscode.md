@@ -1,6 +1,10 @@
-# config
+# vscode
+
+## config
+
 - 排除文件干扰
     - `AppMenu > Preferences > Workspace Settings`
+
 ```
 // Place your settings in this file to overwrite default and user settings.  
 {  
@@ -24,7 +28,9 @@
     }  
 }  
 ```
-# usage
+
+## usage
+
 - 显示所有快捷键
 `C-K C-S`
 - 全部保存
@@ -40,6 +46,8 @@
 
 - [Visual Studio Code 如何同时编辑多处_百度经验](https://jingyan.baidu.com/article/3052f5a1066eb597f31f86db.html)
 
-# fatal
-# Reference
+## fatal
+
+## Reference
+
 - [【VisualStudioCode】VSCode隐藏文件夹ignore folder - CSDN博客](https://blog.csdn.net/teng_ontheway/article/details/51697778)

@@ -21,7 +21,7 @@
 
 ## Extra
 
-### usage
+### extra install
 
 1. usage 1
 
@@ -34,6 +34,10 @@
     - `pip install package_name`
 
 ### package
+
+1. bs4
+2. request
+3. 2to3
 
 - bs4 ( beautifulsoup ) : 从HTML或XML文件中提取数据
 

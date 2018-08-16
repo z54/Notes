@@ -1,0 +1,5 @@
+# cmd
+
+- `arp -a`
+- `ipconfig`
+- 

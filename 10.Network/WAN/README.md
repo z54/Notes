@@ -1,4 +1,0 @@
-# HDLC
-# PPP
-# FR
-# NAT
