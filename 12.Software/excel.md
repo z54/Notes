@@ -34,5 +34,9 @@
 =FILTERXML(WEBSERVICE("http://fanyi.youdao.com/translate?&i="&A2&"&doctype=xml&version"),"//translation")
 ```
 
+## fatal
+
+[EXCEL每次打开文件都会出现一个空白sheet1窗口-CSDN论坛](https://bbs.csdn.net/topics/392258511?page=1)
+
 ## Reference
 - [你见过哪些惊为天人的Excel公式？](https://www.toutiao.com/i6535451547000635907/)
