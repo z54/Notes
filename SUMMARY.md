@@ -39,6 +39,7 @@
     * [sublime](10.Software/sublime.md)
     * [cmd](10.Software/cmd.md)
 * [11. Website](11.Website/README.md)
+* [READ](READ/README.md)
 * [12. Others](12.Others/README.md)
     * [english](12.Others/english.md)
     * [Google](12.Others/Google.md)
