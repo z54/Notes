@@ -5,9 +5,16 @@
 | 快捷键        | 功能         |
 | ------------- | ------------ |
 | Alt+Enter     | 单元格内换行 |
-| Ctrl+;| 当前日期 |
+| Ctrl+; | 当前日期 |
+| Ctrl+Shift+; | 当前时间 |
+| Ctrl+Shift+l | 筛选|
+| Ctrl+Shift+{ ↑ | ↓ | ← | → } | 快速选中表格内容 |
+| Ctrl+d | 向下填充 |
+| Ctrl+r | 向右填充 |
 | Ctrl+Pageup   | 上一个工作表 |
 | Ctrl+PageDown | 下一个工作表 |
+
+[你绝对不知道的6个Excel快捷键，实用性超强！](https://baijiahao.baidu.com/s?id=1608132713959148188&wfr=spider&for=pc)
 
 ## 公式
 
