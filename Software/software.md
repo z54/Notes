@@ -51,7 +51,7 @@
 ## IDE & Editor & CLI
 
 1. [VS Code](vscode.md)
-2. Git, git命令支持, bash 环境支持
+2. [Git](git.md), git命令支持, bash 环境支持
 3. [Sublime](sublime.md)
 4. [atom](atom.md)
 
