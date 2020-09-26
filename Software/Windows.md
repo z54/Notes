@@ -2,23 +2,17 @@
 
 ## version
 
-### Windows 10 version
+### Windows 10
 
-- 根据微软的正式公布，Win10共划分为7个版本，具体如下：
+- Windows 10家庭版（Windows 10 Home）
+- Windows 10专业版（Windows 10 Pro）
+- Windows 10企业版（Windows 10 Enterprise）
+- Windows 10教育版（Windows 10 Education）
+- Windows 10移动版（Windows 10 Mobile）
+- Windows 10企业移动版（Windows 10 Mobile Enterprise）
+- Windows 10 IoT Core（主要针对物联网设备）
 
-    - Windows 10家庭版（Windows 10 Home）
-
-    - Windows 10专业版（Windows 10 Pro）
-
-    - Windows 10企业版（Windows 10 Enterprise）
-
-    - Windows 10教育版（Windows 10 Education）
-
-    - Windows 10移动版（Windows 10 Mobile）
-
-    - Windows 10企业移动版（Windows 10 Mobile Enterprise）
-
-    - Windows 10 IoT Core（主要针对物联网设备）
+---
 
 - vl 
     `cn_windows_10_multi-edition_vl_version_1709_updated_sept_2017_x64_dvd_100090774.iso`
@@ -36,8 +30,6 @@
     - Business editions包括：企业版、教育版、专业版（相当于之前的VL版）
 
 [Win10系统有几个版本？Windows10各版本区别详细介绍_windows10_Windows系列_操作系统_脚本之家](https://www.jb51.net/os/win10/325827.html)
-
-### Windows 7 version
 
 ## Fatal
 

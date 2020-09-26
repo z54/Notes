@@ -1,7 +1,7 @@
 # 3.Android
 
-1. install
-2. config
+1. [install](install.md)
+2. [config]
 3. run
 ---
 4. programming

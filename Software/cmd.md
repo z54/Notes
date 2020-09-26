@@ -7,6 +7,13 @@
 - `mode`
 查看console 口编号
 
+## 变量
+
+```cmd
+%homedrive%
+%homepath%
+```
+
 ## route
 
 - `route print`

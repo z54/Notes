@@ -1,7 +1,0 @@
-# FrameWork
-
-- SSH
-
-- SSM
-
-- Tensorflow
