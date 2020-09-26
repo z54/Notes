@@ -8,3 +8,7 @@
     1. 各科目复习
 
 1. 学校
+
+- [major](Major/major.md)
+
+- [math](Math/math.md)

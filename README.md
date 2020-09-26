@@ -1,4 +1,4 @@
-# Introduction
+# README
 
 1. 思路
     1. 收集xls文件并导出为csv文件
@@ -20,11 +20,12 @@
 
 ## 目录
 
-- Database/[MySQL](./MySQL.md)
-- Android
-- [Program](07.Program/Program.md)
-- Games/[OxygenNotInclude](Games/OxygenNotInclude.md)
-- [[git]](git.md)
-- [english](english.md)
-- [时政](04.CivilServant/时政/时政.md)
+- [Program](Program/Program.md)
+- Games/[OxygenNotInclude](OxygenNotInclude.md)
+- [Software](Software/software.md)
+- [English](english.md)
+- [时政](CivilServant/时政/时政.md)
 - [旅游](旅游.md)
+- Read/[史记](史记.md)
+- [livelog](live_log/livelog.md)
+- [netm](NETM/netm.md)

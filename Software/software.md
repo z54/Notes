@@ -11,12 +11,6 @@
 
 - [vmware](vmware.md)
 
-## program
-
-### sql
-
-- [mysql](../MySQL.md)
-
 ## System
 
 - [windows](Windows.md)
@@ -67,6 +61,7 @@
 4. [atom](atom.md)
 5. [cmd](cmd.md)
 6. [gdb](../07.Program/c/gdb.md)
+7. [git](git.md)
 
 ## 文件
 

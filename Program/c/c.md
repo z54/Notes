@@ -66,6 +66,10 @@ int main(){
 
 	do...while 循环是 while 循环的变体。在检查while()条件是否为真之前，该循环首先会执行一次do{}之内的语句，然后在while()内检查条件是否为真，如果条件为真的话，就会重复do...while这个循环,直至while()为假。
 
+## debug
+
+- [gdb](gdb.md)
+
 ## 编译错误
 
 1. linux无法找到pow函数
