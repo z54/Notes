@@ -1,6 +1,6 @@
-# 7.3 java
+# java
 
-# 7.3.1 env
+# env
 
 ## Install
 

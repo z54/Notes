@@ -23,5 +23,8 @@
 - Database/[MySQL](./MySQL.md)
 - Android
 - [Program](07.Program/Program.md)
-- [Games]
-- 
+- Games/[OxygenNotInclude](Games/OxygenNotInclude.md)
+- [[git]](git.md)
+- [english](english.md)
+- [时政](04.CivilServant/时政/时政.md)
+- [旅游](旅游.md)

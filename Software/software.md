@@ -1,5 +1,16 @@
 # Software
 
+- [adobe](adobe.md)
+
+## website
+
+- [google](Google.md)
+- [vpn](vpn.md)
+
+## VM
+
+- [vmware](vmware.md)
+
 ## program
 
 ### sql
@@ -54,6 +65,8 @@
 2. [Git](git.md), git命令支持, bash 环境支持
 3. [Sublime](sublime.md)
 4. [atom](atom.md)
+5. [cmd](cmd.md)
+6. [gdb](../07.Program/c/gdb.md)
 
 ## 文件
 
