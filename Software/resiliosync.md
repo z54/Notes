@@ -1,0 +1,1 @@
+%appdata%\resilio sync
