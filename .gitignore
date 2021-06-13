@@ -1,3 +1,5 @@
+.gitignore
+
 # latex
 
 *.aux
@@ -13,3 +15,6 @@ test.*
 
 _book
 log
+.vscode
+.obsidian
+Root.code-workspace

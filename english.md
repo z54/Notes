@@ -1,4 +1,0 @@
-- 比赛
-    - 冠军 The champion, The winner
-    - 亚军 Runner-up, The first runner-up, The second place
-    - 季军 Third runner, The second runner-up, The third place
