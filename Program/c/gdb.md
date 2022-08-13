@@ -14,7 +14,7 @@ b func // 设置func函数为断点
 info break // 查看所有断点
 info watchpoints // 查看所有观察点
 
-delete // delete，删除断点
+delete // 删除断点
 
 watch i //
 
