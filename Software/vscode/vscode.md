@@ -7,6 +7,8 @@
 	- [GitHub Flavored Markdown Spec](https://github.github.com/gfm/)
 - [VS Code built-in markdown extension's Textmate grammar](https://github.com/microsoft/vscode-markdown-tm-grammar)
 
+- [viatsko/awesome-vscode: 🎨 A curated list of delightful VS Code packages and resources.](https://github.com/viatsko/awesome-vscode#readme)
+
 ## what is I need
 
 ```tinymind
@@ -29,7 +31,9 @@ vscode
 ## [[vscode.extension]]
 
 - c
+- python
 - tex
+- markdown
 
 ## [[vscode.snippets]]
 

@@ -28,6 +28,7 @@
 
 - [windows](Windows.md)
 - [macos](macos.md)
+- [Linux](LInux.md)
 
 ## Doc
 

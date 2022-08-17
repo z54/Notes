@@ -120,6 +120,9 @@ tasklist | findstr 8124
 
 taskkill /pid 8124 /F
 taskkill /im java.exe /F
+
+tasklist | find "Everything" || start "" "%PROGRAMFILES%\Everything\Everything.exe"
+tasklist | find "Everything" && taskkill /f /im "Everything.exe"
 ```
 
 ### 服务
