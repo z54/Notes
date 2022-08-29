@@ -1,4 +1,6 @@
-# 画图
+# diagram
+
+## ditta
 
 ```
                 +-------------+
@@ -44,9 +46,11 @@ digraph finite_state_machine {
 }
 ```
 
-### [[plantuml]]
+### plantuml
 
-enhance支持
+> enhance支持
+
+[[plantuml]]
 
 ```plantuml
 @startuml test
@@ -77,7 +81,7 @@ stop
 
 ### flow
 
-enhance支持
+> enhance支持
 
 ```flow
 //定义类型和描述

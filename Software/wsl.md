@@ -57,13 +57,26 @@ net start lxssmanager
 
 ### %LOCALAPPDATA%/Docker/wsl/data/ext4.vhdx 文件太大
 
+tasklist | find "docker" && taskkill /f /im "docker.exe"
+wsl --shutdown
+
+迁移
+
 [win10使用WSL 2运行Docker Desktop，运行文件从C盘迁移到其他目录 - xhznl - 博客园](https://www.cnblogs.com/xhznl/p/13184398.html#4634011)
 [【Docker】win10上修改docker的镜像文件存储位置（九）- 通过WSL2修改_2021 真实-CSDN博客_docker wsl2 镜像位置](https://blog.csdn.net/u013948858/article/details/111464534)
 
-关闭docker
-wsl --shutdown
-set mydir=E:\DockerData\wsl\docker-desktop-data\
-mkdir %mydir%
-wsl --export docker-desktop-data %mydir%docker-desktop-data.tar
+%localappdata%\Docker\wsl\data\ext4.vhdx
+
+set datadir=D:\Docker\wsl\data
+set bakdir=D:\Docker\wsl\data\bak
+mkdir %bakdir%
+
+wsl --export docker-desktop-data %bakdir%\docker-desktop-data.tar
 wsl --unregister docker-desktop-data
-wsl --import docker-desktop-data %mydir% %mydir%docker-desktop-data.tar --version 2
+wsl --import docker-desktop-data %datadir% %bakdir%\docker-desktop-data.tar --version 2
+
+空间优化
+
+[适用于 linux 的 windows 子系统 - Docker Desktop WSL ext4.vhdx 太大 - 代码日志](https://stackoverflow.com/questions/70946140/docker-desktop-wsl-ext4-vhdx-too-large)
+
+Optimize-VHD -Path "%localappdata%\Docker\wsl\data\ext4.vhdx" -Mode Full

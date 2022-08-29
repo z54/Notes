@@ -12,6 +12,8 @@ vscode <br>setting
     工作区配置
 ```
 
+## 配置路径
+
 ```bat
 : 打开用户配置文件
 
@@ -25,38 +27,29 @@ start code %homepath%\AppData\Roaming\Code\User\settings.json
 - [【VisualStudioCode】VSCode隐藏文件夹ignore folder - CSDN博客](https://blog.csdn.net/teng_ontheway/article/details/51697778)
 - [第一次使用VS Code时你应该知道的一切配置](https://juejin.cn/post/6844903826063884296)
 
-### 默认使用tab缩进
+## 配置项
 
 ```json
+
+    // 默认使用tab缩进
+
     "editor.detectIndentation": true, 
     "editor.insertSpaces": false,
     "editor.tabSize": 4
-```
 
-### 关闭认证
+    // 关闭认证
 
-```json
-"security.workspace.trust.enabled": false,
-```
+    "security.workspace.trust.enabled": false,
 
-### 高亮当前行
+    // [高亮当前行](https://csjiabin.github.io/2020/04/24/VSCode%E7%9A%84%E4%BD%BF%E7%94%A8/)
 
-[高亮当前行](https://csjiabin.github.io/2020/04/24/VSCode%E7%9A%84%E4%BD%BF%E7%94%A8/)
+    "workbench.colorCustomizations": {
+    "editor.lineHighlightBackground": "#00000090",
+    "editor.lineHighlightBorder": "#00000000"
 
-```json
-"workbench.colorCustomizations": {
-"editor.lineHighlightBackground": "#00000090",
-"editor.lineHighlightBorder": "#00000000"
-}
-```
+    // 排除文件干扰
 
-### 排除文件干扰
-
-```json
-// Place your settings in this file to overwrite default and user settings.  
-{  
-     //-------- Search configuration --------  
-  
+    //-------- Search configuration --------  
     // Configure glob patterns for excluding files and folders in searches. Inherits all glob patterns from the files.exclude setting.  
     "search.exclude": {  
         "**/node_modules": true,  
@@ -64,7 +57,6 @@ start code %homepath%\AppData\Roaming\Code\User\settings.json
     },  
   
     //-------- Files configuration --------  
-  
     // Configure glob patterns for excluding files and folders.  
     "files.exclude": {  
         "**/.git": true,  
@@ -73,20 +65,14 @@ start code %homepath%\AppData\Roaming\Code\User\settings.json
         "**/node_modules": true,  
         "**/iOS": true  
     }  
-}  
-```
 
-### 双击选择文本
+    // 双击选择文本
+    
+    "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",<>/?、，。", // 去除了-.，添加了、
+    
+    // Markdown 提示
 
-```json
-    "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",<>/?、，。",
-    // 去除了-.，添加了、
-```
-
-### Markdown 提示
-
-```json
-    "[markdown]": {
+    "[markdown]": { 
         "editor.wordWrap": "on",
         "editor.quickSuggestions": true,
         "editor.defaultFormatter": "cipchk.vscode-markdown-compact-table-formatter",

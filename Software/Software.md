@@ -2,27 +2,24 @@
 
 ## Windows
 
-- Everything，文件搜索
+- *[Everything]，文件搜索
 - Quicklook，预览
 - Powertoys，微软官方提供的小工具合集，支持alt space 
-- Snipaste，截图+贴图
-- autohotkey， 快捷键
+- *[Snipaste]，截图+贴图
+- AutoHotKey， 快捷键
 - 7+ Taskbar Tweaker, 窗口管理，程序不分组，关闭预览
-- quicker, 快捷联想功能
+- Quicker, 快捷联想功能
 
-## 多屏幕
+## screen
 
 - mouse without borders，一套键鼠操作局域网内多台PC
 - spacedesk，多屏幕
 - Screen Rotat， 旋转屏幕
 
-## website
-
-- [google](Google.md)
-
 ## VM
 
 - [vmware](vmware.md)
+- [virtualbox]
 
 ## System
 
@@ -43,7 +40,6 @@
 - todesk
 - teamviewer
 - Radmin
-
 ## System Tool
 
 - Wiztree，空间查看
@@ -66,17 +62,32 @@
 2. Sharex, 滚动截图，OCR
 3. FastStone, 滚动截屏，录屏，`付费`
 
+## Book READER
+
+- *[SumatraPDF]，pdf阅读器，支持类vim操作
+- [Calibre](calibre.md)，阅读器，支持mobi等文件格式
+
 ## Editor
 
-1. [VS Code](vscode.md)
+1. *[VSCode](vscode.md)
 2. [Sublime]
 3. [atom]
+4. [logseq]
+5. [Obsidian]
+6. [Notion]
+7. [flomo] 闪念笔记
+8. [Marginnote3]
+9. [OneNote]
+10. [Typora]
+11. [Word]
+12. [Roam Research]
 
 ## 文件
 
 1. total commander
 2. everything, 搜索
 3. ~~tagLyst~~，在库中将文件名追加标签后缀，如`git.exe`加上标签`软件`，库中文件名为`git#软件.exe`，需要修改文件名，`付费`
+4. ~~Files~~, WIN11风格文件管理器, 使用有卡顿感
 
 ### 文件标签
 
@@ -92,11 +103,6 @@
 
 - Google Chrome
 - Firefox
-
-## Book READER
-
-- SumatraPDF，pdf阅读器，支持类vim操作
-- [Calibre](calibre.md)，阅读器，支持mobi等文件格式
 
 ## PIC
 
@@ -126,10 +132,39 @@
 2. [Git](git.md), git命令支持, bash 环境支持
 3. [cmd](cmd.md)
 
+## website
+
+### index
+
+[今日热榜官网](https://tophub.today/)
+
+### search
+
+- [google](Google.md)
+
+### 电影
+
+- [IMDb](https://www.imdb.com/)
+- [豆瓣电影](https://movie.douban.com/)
+
+### 问答
+
+[Quora](https://www.quora.com/spaces?discover=true)
+[知乎](https://www.zhihu.com/explore)
+
+### shop
+
+[Amazon](https://www.amazon.com/)
+
+### pic
+
+### 
+
 ## 游戏
 
 - Steam
 - 暴雪
+- wegame
 
 ### 模拟经营-城市建造
 
@@ -147,7 +182,7 @@
 1. 疯狂农场_Farm Frenzy
 2. 模拟农场_Farming Simulator
 
-### 模拟经营-其他场景
+### 模拟经营-驾驶
 
 1. 欧卡
 
