@@ -22,24 +22,36 @@ vscode
     env
 ```
 
-## [[vscode.config]]
+## config
 
-## [[vscode.workspace]]
+[[vscode.config]]
 
-## [[vscode.env]]
+## workspace
 
-## [[vscode.extension]]
+[[vscode.workspace]]
+
+## env
+
+[[vscode.env]]
+
+## extension
+
+[[vscode.extension]]
 
 - c
 - python
 - tex
 - markdown
 
-## [[vscode.snippets]]
+## snippets
 
-## [[vscode.diagram]]
+[[vscode.snippets]]
 
-## vscode.path
+## diagram
+
+[[vscode.diagram]]
+
+## path
 
 start explorer %userprofile%\.vscode
 

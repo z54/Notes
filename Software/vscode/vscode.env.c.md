@@ -1,4 +1,4 @@
-# c
+# vscode for c
 
 [挑把趁手的兵器——VSCode配置C/C++学习环境（小白向） - 知乎](https://zhuanlan.zhihu.com/p/147366852)
 

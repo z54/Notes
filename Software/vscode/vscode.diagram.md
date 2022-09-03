@@ -21,9 +21,13 @@
     +-----------------------------------+
 ```
 
-### [[mermaid]]
+### mermaid
 
-### [[graphviz]]
+[[mermaid]]
+
+### graphviz
+
+[[graphviz]]
 
 需要插件[graphviz-markdown-preview](https://github.com/geeklearningio/graphviz-markdown-preview)支持
 

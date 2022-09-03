@@ -1,8 +1,8 @@
-### 工作区配置
+# 工作区配置
 
 .code-workspace
 
-#### 空
+## 空
 
 ```json
 {
@@ -15,27 +15,7 @@
 }
 ```
 
-#### Root
-
-```json
-{
-// extensions.json
-    "recommendations": [
-        "mushan.vscode-paste-image",
-        "yzhang.markdown-all-in-one",
-        "wayou.vscode-todo-highlight",
-        "qiqiworld.vscode-markdown-tinymind",
-        "kortina.vscode-markdown-notes",
-        "mathiassoeholm.markdown-link-updater",
-        "formulahendry.terminal",
-        "cipchk.vscode-markdown-compact-table-formatter",
-        "csholmq.excel-to-markdown-table",
-        "sandcastle.vscode-open",
-    ]
-}
-```
-
-#### markdown
+## tex
 
 ```json
 {
@@ -54,34 +34,29 @@
     },
     "extensions": {
         "recommendations": [
+
+    }
+}
+```
+
+## Markdown
+
+```
+	"extensions": {
+		"recommendations": [
+			"mathiassoeholm.markdown-link-updater",
+			"csholmq.excel-to-markdown-table",
+			"geeklearningio.graphviz-markdown-preview",
 			"cipchk.vscode-markdown-compact-table-formatter",
-            "yzhang.markdown-all-in-one",
+			"tchayen.markdown-links",
+			"kortina.vscode-markdown-notes",
+			"qiqiworld.vscode-markdown-tinymind",
+			"mushan.vscode-paste-image"
 		]
-    }
-}
+	}
 ```
 
-#### dendron
-
-```json
-{
-  "folders": [
-    {
-      "path": "vault"
-    }
-  ],
-  "settings": {},
-  "extensions": {
-    "recommendations": [
-      "dendron.dendron-paste-image",
-      "dendron.dendron-markdown-shortcuts",
-      "redhat.vscode-yaml"
-    ]
-  }
-}
-```
-
-#### math
+## math
 
 > tex, markdown
 

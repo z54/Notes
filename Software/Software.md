@@ -69,7 +69,7 @@
 
 ## Editor
 
-1. *[VSCode](vscode.md)
+1. *[[VSCode]]
 2. [Sublime]
 3. [atom]
 4. [logseq]
