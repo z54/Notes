@@ -7,7 +7,7 @@
 Tool ->  option ->  General ->  check Show Search Everything folder context menu item
 Tool ->  option ->  General -> Keyboard ->  Show window Hotkey: Alt+E
 
-[[everything-cli.help]]
+- [everything-cli.help](everything-cli.help)<!-- [[everything-cli.help]] --> 
 
 ## 使用
 
@@ -30,21 +30,28 @@ Tool ->  option ->  General -> Keyboard ->  Show window Hotkey: Alt+E
 ### 操作符使用
 
 ```sh
-# 搜索路径为 D盘 且搜索 .pdf
-.pdf D: 
-# 搜索路径为 C盘 或 D盘 且搜索 .pdf  
-.pdf C: | D:
-# 搜索路径为 非C盘 且搜索 .pdf
-.pdf !C:
+# 搜索 *.pdf且搜索路径为 D盘
+*.pdf D: 
+# 搜索 *.pdf且搜索路径为 C盘 或 D盘
+*.pdf C: | D:
+# 搜索 *.pdf且搜索路径为 非C盘
+*.pdf !C:
 ```
+
+### 分组
+
+
 
 ### cmd调用
 
 ```cmd
-rem 直接调用（可以放入cmd文件作为快捷操作）
+@echo off
+@REM 可以放入cmd文件作为快捷操作
+
+@REM 路径调用
 "C:\Program Files\Everything\Everything.exe" -s "c:\ .pdf"
 
-rem path调用
+@REM path调用
 path="C:\Program Files\Everything\";%path%;
 everything -s .pdf
 everything -s regex:.*.pdf
@@ -52,8 +59,7 @@ everything -s regex:.*.pdf
 
 ### cli
 
-[下载 - voidtools](https://www.voidtools.com/zh-cn/downloads/)
-下载 Everything 命令行接口
+[下载 Everything 命令行接口](https://www.voidtools.com/zh-cn/downloads/)
 
 ```cmd
 es -s keyword

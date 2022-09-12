@@ -2,13 +2,13 @@
 
 ## Windows
 
-- *[Everything]，文件搜索
+- *[Everything](Everything.md)，文件搜索
 - Quicklook，预览
 - Powertoys，微软官方提供的小工具合集，支持alt space 
-- *[Snipaste]，截图+贴图
+- *[Snipaste](Snipaste.md)，截图+贴图
 - AutoHotKey， 快捷键
 - 7+ Taskbar Tweaker, 窗口管理，程序不分组，关闭预览
-- Quicker, 快捷联想功能
+- Quicker, 键盘或鼠标触发扩展功能
 
 ## screen
 
@@ -19,7 +19,8 @@
 ## VM
 
 - [vmware](vmware.md)
-- [virtualbox]
+- [virtualbox](virtualbox.md)
+- [hyperv](hyperv.md)
 
 ## System
 
@@ -29,9 +30,9 @@
 
 ## Doc
 
-- [[excel]]
-- [[word]]
-- [[mail]]
+- [excel](excel.md)<!-- [[excel]] -->
+- [word](word.md)<!-- [[word]] -->
+- [mail](mail.md)<!-- [[mail]] -->
 
 ## Remote Control
 
@@ -40,6 +41,7 @@
 - todesk
 - teamviewer
 - Radmin
+
 ## System Tool
 
 - Wiztree，空间查看
@@ -49,38 +51,38 @@
 - PowerToys，微软官方提供的小工具合集
 - CPU-Z，硬件查看
 - OpenArk64， 重复快捷键查找
-- ~~SpaceSniffer， 空间查看，green, single，速度慢~~
+- ~~SpaceSniffer~~， 空间查看，green, single，速度慢
 
 ## 下载
 
-1. IDM，`付费`
+1. IDM，付费
 2. Resilio Sync
 
 ## 截图
 
-1. Snipaster，F1截图，F3粘贴到屏幕，Ctrl+S保存截图，`green`
+1. Snipaster，F1截图，F3粘贴到屏幕，Ctrl+S保存截图，green
 2. Sharex, 滚动截图，OCR
-3. FastStone, 滚动截屏，录屏，`付费`
+3. FastStone, 滚动截屏，录屏，付费
 
 ## Book READER
 
 - *[SumatraPDF]，pdf阅读器，支持类vim操作
-- [Calibre](calibre.md)，阅读器，支持mobi等文件格式
+- [Calibre](calibre.md)<!-- [[Calibre]] -->，阅读器，支持mobi等文件格式
 
 ## Editor
 
-1. *[[VSCode]]
-2. [Sublime]
-3. [atom]
-4. [logseq]
-5. [Obsidian]
-6. [Notion]
-7. [flomo] 闪念笔记
-8. [Marginnote3]
-9. [OneNote]
-10. [Typora]
-11. [Word]
-12. [Roam Research]
+1. *[VSCode](VSCode.md)<!-- [[VSCode]] -->
+2. Sublime
+3. atom
+4. logseq
+5. Obsidian
+6. Notion
+7. flomo] 闪念笔记, 必须登录
+8. Marginnote3
+9. OneNote
+10. Typora
+11. Word
+12. Roam Research
 
 ## 文件
 
@@ -106,8 +108,7 @@
 
 ## PIC
 
-- Picasa 3
-    > 不再更新
+- Picasa 3, 不再更新
 
 ## Doc
 
@@ -122,9 +123,9 @@
 
 ## VM
 
-- [vmware]
-- [virtualbox]
-- [hyperv]
+- vmware
+- virtualbox
+- hyperv
 
 ## CLI
 
@@ -140,7 +141,7 @@
 
 ### search
 
-- [google](Google.md)
+- [Google](Google.md)
 
 ### 电影
 
@@ -158,8 +159,6 @@
 
 ### pic
 
-### 
-
 ## 游戏
 
 - Steam
@@ -175,7 +174,7 @@
 ### 模拟经营-生存
 
 1. 饥荒
-2. [缺氧]
+2. [缺氧
 
 ### 模拟经营-农场
 

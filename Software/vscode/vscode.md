@@ -24,19 +24,19 @@ vscode
 
 ## config
 
-[[vscode.config]]
+- [vscode.config](vscode.config.md)<!-- [[vscode.config]] -->
 
 ## workspace
 
-[[vscode.workspace]]
+- [vscode.workspace](vscode.workspace.md)<!-- [[vscode.workspace]] -->
 
 ## env
 
-[[vscode.env]]
+- [vscode.env](vscode.env.md)<!-- [[vscode.env]] -->
 
 ## extension
 
-[[vscode.extension]]
+- [vscode.extension](vscode.extension.md)<!-- [[vscode.extension]] -->
 
 - c
 - python
@@ -45,11 +45,11 @@ vscode
 
 ## snippets
 
-[[vscode.snippets]]
+- [vscode.snippets](vscode.snippets.md)<!-- [[vscode.snippets]] -->
 
 ## diagram
 
-[[vscode.diagram]]
+- [vscode.diagram](vscode.diagram.md)<!-- [[vscode.diagram]] -->
 
 ## path
 
