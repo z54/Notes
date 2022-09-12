@@ -9,3 +9,8 @@ created: 1660751322985
 
 - [[Software]]
 - [[Hardware]]
+
+## Special Repo
+
+- [snippets](../snippets/README.md)
+- [Bookmarks](../bookmarks/README.md)

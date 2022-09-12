@@ -7,13 +7,15 @@
 Tool ->  option ->  General ->  check Show Search Everything folder context menu item
 Tool ->  option ->  General -> Keyboard ->  Show window Hotkey: Alt+E
 
+[[everything-cli.help]]
+
 ## 使用
 
-### 批量修改文件名：选中文件，F2重命名
+### 批量修改文件名：选中所需文件，F2重命名
 
-- 三国演义-罗贯中.pdf
-- `%1-%2.pdf`
-- `^(.*?)-(.*?)\.pdf$`
+三国演义-罗贯中.pdf
+%1-%2.pdf
+^(.*?)-(.*?)\.pdf$
 
 ### 批量删除文件（数量超过1万）：
 
