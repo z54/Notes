@@ -46,4 +46,3 @@ https://www.zhihu.com/search?type=content&q=%s
 https://www.baidu.com/s?wd=%s
 http://v.qq.com/x/search?opensearch=1&q=%s
 ```
-

@@ -7,10 +7,10 @@ created: 1660751322985
 ---
 # README
 
-- [[Software]]
-- [[Hardware]]
+- [Software](Software.md)<!-- [[Software]] -->
+- [Hardware](Hardware.md)<!-- [[Hardware]] -->
 
 ## Special Repo
 
-- [snippets](../snippets/README.md)
-- [Bookmarks](../bookmarks/README.md)
+- [snippets](https://github.com/z54/awesome-snippets/blob/main/README.md)
+- [bookmarks](https://github.com/z54/awesome-bookmarks/blob/main/README.md)
