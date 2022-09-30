@@ -8,15 +8,21 @@
 
 [brew(1) – The Missing Package Manager for macOS — Homebrew Documentation](https://docs.brew.sh/Manpage)
 
-- brew update
-- brew upgrade
-- brew list
+```
+brew update
+brew upgrade
 
----
+brew list
+brew casks
 
-- brew install sth
-- brew uninstall sth
-- brew search sth
+brew search docker
+
+brew install docker
+brew install --cask docker
+brew uninstall docker
+
+brew autoremove
+```
 
 ## Shortcut
 
