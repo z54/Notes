@@ -12,7 +12,7 @@
 
 ## screen
 
-- mouse without borders，一套键鼠操作局域网内多台PC
+- mouse without borders，[Download](https://www.microsoft.com/en-us/download/details.aspx?id=35460), 一套键鼠操作局域网内多台PC
 - spacedesk，多屏幕
 - Screen Rotat， 旋转屏幕
 
@@ -20,7 +20,7 @@
 
 - [vmware](vmware.md)
 - [virtualbox](virtualbox.md)
-- [hyperv](hyperv.md)
+- [Hyper-V](hyperv.md)<!-- [[Hyper-V]] --> 
 
 ## System
 
@@ -77,7 +77,7 @@
 4. logseq
 5. Obsidian
 6. Notion
-7. flomo] 闪念笔记, 必须登录
+7. flomo 闪念笔记, 必须登录
 8. Marginnote3
 9. OneNote
 10. Typora
@@ -125,7 +125,7 @@
 
 - vmware
 - virtualbox
-- hyperv
+- Hyper-V
 
 ## CLI
 

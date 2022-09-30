@@ -5,7 +5,7 @@ windows
     tools
     vitrual
         wsl
-        hyperv
+        Hyper-V
     remote
         ssh
         remote control
@@ -54,10 +54,12 @@ geek | 软件卸载器
 
 ## vitrual
 
-- [wsl](wsl.md)
+[wsl](wsl.md)<!-- [[wsl]] --> 
+
 wsl --install
 
-- hyper-v]
+- [[Hyper-V]]
+
 ```cmd
 DISM /Online /Enable-Feature /All /FeatureName:Microsoft-Hyper-V
 ```

@@ -3,22 +3,36 @@
 [CMD有哪些有趣的命令？ - 知乎](https://www.zhihu.com/question/29930842?sort=created)
 [Windows 命令 | Microsoft Docs](https://docs.microsoft.com/zh-cn/windows-server/administration/windows-commands/windows-commands#s)
 [Windows CMD命令大全(值得收藏)_DOS/BAT_脚本之家](https://www.jb51.net/article/141568.htm)
+[Windows/Mac/Linux/ssh将shell内容输出到剪贴板_TaQini852的博客-CSDN博客_linux 输出到剪贴板](https://blog.csdn.net/smalosnail/article/details/120589901)
 
 ```cmd
 ping 127.0.0.1
 ping 127.0.0.1 -t
 
-rem arp缓存
+@REM arp缓存
 arp -a
 
-rem 查看本机开启的端口
+@REM 查看本机开启的端口
 netstat -a -n
 
 netstat -ano | findstr "1080"
-tasklist|findstr "4568"
+tasklist | findstr "4568"
 
-rem 查看所有用户
+@REM 查看所有用户
 net user
+
+@REM 关闭桌面环境
+taskkill /F /IM explorer.exe
+
+@REM 仅打开文件管理器
+start explorer %userprofile%
+
+@REM 打开桌面环境
+start explorer
+```
+
+```
+start "%ProgramFiles(x86)%steam"
 ```
 
 ## 注释
@@ -139,18 +153,10 @@ echo %CD% - current directory, C:\Users\user
 echo %DATE% - 2021/04/09 周五, 用跟 DATE 命令同样的格式扩展到当前日期。
 echo %TIME% - 23:55:36.44, 用跟 TIME 命令同样的格式扩展到当前时间。
 echo %RANDOM% - 扩展到 0 和 32767 之间的任意十进制数字。
-echo %ERRORLEVEL% - 扩展到当前 ERRORLEVEL 数值。
+echo %ERRORLEVEL% - 扩展到当前 ERRORLEVEL 数值, 上一个命令执行成果为0，否则为1
 echo %CMDEXTVERSION% - 扩展到当前命令处理器扩展版本号。
 echo %CMDCMDLINE% - 扩展到调用命令处理器的原始命令行。
 echo %HIGHESTNUMANODENUMBER% - 扩展到此计算机上的最高 NUMA 节点号。
-
-echo %CD% - 扩展到当前目录字符串。
-echo %DATE% - 用跟 DATE 命令同样的格式扩展到当前日期。
-echo %TIME% - 用跟 TIME 命令同样的格式扩展到当前时间。
-echo %RANDOM% - 扩展到 0 和 32767 之间的任意十进制数字。
-echo %ERRORLEVEL% - 扩展到当前 ERRORLEVEL 数值。
-echo %CMDEXTVERSION% - 扩展到当前命令处理器扩展名版本号。
-echo %CMDCMDLINE% - 扩展到调用命令处理器的原始命令行。
 
 ALLUSERSPROFILE=C:\ProgramData
 APPDATA=C:\Users\user\AppData\Roaming
@@ -166,13 +172,53 @@ SystemRoot=C:\WINDOWS
 USERNAME=zach
 USERPROFILE=C:\Users\zach
 
-tasklist|find /i "abc.exe"
+tasklist | find "abc.exe"
 if %errorlevel% == 0 (taskkill /IM abc.exe)
 
 [CMD 一条命令 执行 多条命令_夏华东的博客的博客-CSDN博客_cmd一行多条命令](https://blog.csdn.net/weixin_44493841/article/details/107140526)
 
 如果想一次运行多条命令可能用到的连接符个人了解到的有三个：&&，|| 和 &。
 
+[DOS批处理中%~dp0等扩充变量语法详解_DOS/BAT_脚本之家](https://www.jb51.net/article/97588.htm)
+
+```cmd
+脚本参数
+
+@REM 参数个数
+set argC=0
+for %%x in (%*) do Set /A argC+=1
+echo %argC%
+
+%* 包含指令和所有参数
+%0到%9，%0表示文件名本身，参数用%1到%9
+%~d0 是指批处理所在的盘符，其中d代表drive
+%~p0 是指批处理所在的目录，其中p代表path
+%~dp0 是批处理所在的盘符加路径
+
+:: ~I - 删除任何引号 (") ，扩充 %I
+:: %~fI - 将 %I 扩充到一个完全合格的路径名
+:: %~dI - 仅将 %I 扩充到一个驱动器号
+:: %~pI - 仅将 %I 扩充到一个路径
+:: %~nI - 仅将 %I 扩充到一个文件名
+:: %~xI - 仅将 %I 扩充到一个文件扩展名
+:: %~sI - 扩充的路径只含有短名
+:: %~aI - 将 %I 扩充到文件的文件属性
+:: %~tI - 将 %I 扩充到文件的日期 / 时间
+:: %~zI - 将 %I 扩充到文件的大小
+:: %~$PATH:I - 查找列在路径环境变量的目录，并将 %I 扩充
+:: 到找到的第一个完全合格的名称。如果环境变量名
+:: 未被定义，或者没有找到文件，此组合键会扩充到
+:: 空字符串
+:: 可以组合修饰符来得到多重结果 :
+:: %~dpI - 仅将 %I 扩充到一个驱动器号和路径
+:: %~nxI - 仅将 %I 扩充到一个文件名和扩展名
+:: %~fsI - 仅将 %I 扩充到一个带有短名的完整路径名
+:: %~dp$PATH:i - 查找列在路径环境变量的目录，并将 %I 扩充
+:: 到找到的第一个驱动器号和路径。
+:: %~ftzaI - 将 %I 扩充到类似输出线路的 DIR
+```
+
+```
 aa && bb
 含义：执行aa，成功后再执行bb
 例子： a.js && node b.js
@@ -242,14 +288,14 @@ erase *.txt
 ```cmd
 rem link
 
-硬链接:修改1.txt后，2.txt做出同样修改，删除1.txt不影响2.txt正常使用
+rem 硬链接:修改1.txt后，2.txt做出同样修改，删除1.txt不影响2.txt正常使用
 mklink /H 2.txt 1.txt
 
 C:>fsutil hardlink list 1.txt
 Desktop\1.txt
 Desktop\2.txt
 
-目录链接（类似于快捷方式），显示为dir2，删除dir1后dir2无法使用
+rem 目录链接（类似于快捷方式），显示为dir2，删除dir1后dir2无法使用
 
 mklink /J dir2 dir1
 
@@ -265,17 +311,14 @@ C:>dir /a
 - `FOR %variable IN (set) DO command [command-parameters]`
 
 ```cmd
-for 
-
-[cmd for 用法 - bug_x - 博客园](https://www.cnblogs.com/cbugs/p/8992059.html)
-
-- `FOR %variable IN (set) DO command [command-parameters]`
-
+rem for
 rem 输出1 2 3 4 5
 for /l %i in (1,1,5) do @echo %i
 rem 枚举了c盘所有目录
 for /r c:\ %i in (boot.ini) do echo %i 
+```
 
+```cmd
 rem while
 rem 没有直接的while语句
 
@@ -287,7 +330,6 @@ if %index% leq %count% (
    SET /A "index=index + 1"
    goto :while
 )
-
 ```
 
 ## judge
@@ -295,35 +337,71 @@ if %index% leq %count% (
 [cmd if条件 条件判断_DOS/BAT_脚本之家](https://www.jb51.net/article/18979.htm)
 
 ```cmd
-rem if
+@rem if
 
+rem ==, equ
 if "abc"=="xyz" (echo 字符串abc等于字符串xyz) else (echo 字符串abc不等于字符串xyz)
-
 if 1 equ 2 (echo 1等于2) else (echo 1不等于2)
+if %errorlevel% == 0 (echo 执行成功) else if %errorlevel% == 1 (echo 执行失败)
 
+rem if defined
 if defined str (echo 变量str已经被赋值，其值为%str%) else (echo 变量str的值为空)
 
+rem if exist
 if exist d:\test.txt (echo D盘下有test.txt存在) else (echo D盘下不存在test.txt)
 
+rem if, else if, else
 set varA=B
 if "%varA%"=="A" (echo %varA% is A) else if "%varA%"=="B" (echo %varA% is B) else (echo %varA% is C)
 
-rem choice
-
-choice /C YNC /M "确认请按 Y，否请按 N，或者取消请按 C。
-
-与或非（与或没有）
-
+rem 与或非（与或没有）
 if not %a%=="" echo a不为空
+```
+
+```cmd
+rem choice
+choice /C YNC /M "确认请按 Y，否请按 N，或者取消请按 C。
 ```
 
 ## find
 
-`ipconfig | find /n "IPv4"`
+[Windows CMD中 find命令（字符串查找）_迎风悟极道的博客-CSDN博客_cmd find](https://blog.csdn.net/icanlove/article/details/37567591)
+
+```cmd
+rem find
+ipconfig | find "IPv4"
+find "abc" d:\test.txt
+
+rem 不区分大小写的
+find /i "Abc" d:\test.txt
+
+rem /v 不包含
+find /v "Abc" d:\test.txt 
+
+rem 统计下包含某个字符串的总行数
+find /c "abc" d:\test.txt
+
+rem 在每行的行首显示行号
+find /n "abc" d:\test.txt
+```
+
+[Windows CMD中 findstr命令_迎风悟极道的博客-CSDN博客_cmd findstr](https://blog.csdn.net/icanlove/article/details/37567253)
+
+```cmd
+rem findstr
+findstr "abc" d:\test.txt
+
+rem 查找带有空格的字符串
+findstr /c:"abc xyz" d:\test.txt
+
+rem 在当前目录及所有子目录下的所有文件中查找
+findstr /s /i "abc"  *.*
+
+rem 正则表达式
+findstr "^[a-z]*$" test.txt
+```
 
 ## string
-
-`ipconfig | find /n "IPv4"`
 
 ```cmd
 rem 截取，第一个字符下标为0

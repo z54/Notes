@@ -6,6 +6,8 @@ updated: 1639423509837
 created: 1639423509837
 ---
 
+[Windows](Windows.md)<!-- [[Windows]] --> 
+
 ## env
 
 - [在 Windows 10 上安装 WSL | Microsoft Docs](https://docs.microsoft.com/zh-cn/windows/wsl/install-win10)
@@ -52,6 +54,8 @@ wsl --shutdown
 net stop lxssmanager
 net start lxssmanager
 ```
+
+[WSL与Windows交互实践 - 蘑菇先生 - 博客园](https://www.cnblogs.com/mushroom/p/8969338.html)
 
 ## fatal
 

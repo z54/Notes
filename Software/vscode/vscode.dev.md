@@ -2,7 +2,7 @@
 
 ```tinymind
 plug
-    [[node.js]]语法
+    [node.js](node.js.md)<!-- [[node.js]] --> 语法
         [菜鸟教程](https://www.runoob.com/nodejs/nodejs-tutorial.html)
     plus教程
         开发文档，[Extension API | Visual Studio Code Extension API](https://code.visualstudio.com/api)

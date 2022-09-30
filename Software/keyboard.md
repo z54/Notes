@@ -14,4 +14,4 @@
 
 ## autohotkey
 
-- [[autohotkey]]
+- [autohotkey](autohotkey.md)<!-- [[autohotkey]] --> 

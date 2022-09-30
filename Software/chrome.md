@@ -1,5 +1,7 @@
 # chrome
 
+[browser](browser.md)<!-- [[browser]] --> 
+
 [Chrome 键盘快捷键 - 计算机 - Google Chrome帮助](https://support.google.com/chrome/answer/157179)
 
 ## chrome默认的书签位置,json格式保存
@@ -28,6 +30,11 @@ about:dns
 about:memory
 view-source:[URL]
 about:cache
+
+## 特性
+
+多线程下载（将默认的 Default 改为 Enabled）
+chrome://flags/#enable-parallel-downloading
 
 ## search engine
 
