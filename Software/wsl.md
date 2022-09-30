@@ -19,26 +19,30 @@ created: 1639423509837
 
 - [WSL 的基本命令 | Microsoft Docs](https://docs.microsoft.com/zh-cn/windows/wsl/basic-commands)
 
-```ps
-安装
+```cmd
+@REM 安装wsl
 wsl --install
 
 列出可用的 Linux 发行版
 wsl --list --online 
 
 安装特定的 Linux 发行版
-wsl --install --distribution <Distribution Name>
 wsl --install -d Ubuntu
 wsl --install -d Debian
 
 列出已安装的 Linux 发行版
 wsl --list --verbose
+wsl -l -v
 
 将 WSL 版本设置为 1 或 2
 wsl --set-default-version 2
 
 设置默认 Linux 发行版
-wsl --set-default <Distribution Name>
+wsl -s debian
+wsl -s ubuntu
+wsl --set-default-version <Version#>
+wsl cat /etc/issue
+wsl --list --verbose
 
 检查 WSL 状态
 wsl --status
@@ -46,9 +50,13 @@ wsl --status
 更新 WSL
 wsl --update
 
+终止指定的发行版
 wsl --terminate <Distribution Name>
+
+注销或卸载 Linux 发行版
 wsl --unregister <DistributionName>
 
+立即终止所有正在运行的发行版和 WSL 2 轻量级实用工具虚拟机
 wsl --shutdown
 
 net stop lxssmanager
