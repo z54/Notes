@@ -1,2 +1,35 @@
 # Hardware
 
+- 主机
+	- 主板
+		- Intel
+		- AMD
+	- CPU
+		- Intel
+		- AMD
+	- GPU
+    	- NVIDIA
+    	- AMD
+	- 内存
+	- 硬盘
+    	- SLC，单层
+    	- MLC，多层
+    	- TLC，三层
+    	- 接口
+        	- M.2接口
+        	- SATA接口
+	- 声卡
+	- 网卡
+- 外设
+	- 键盘
+		- 轴体（青，黑，茶，红）
+		- 布局（qwerty）
+	- 鼠标
+	- 显示器
+		- 支架
+		- 亮度（尼特 1nit=1 cd/m² ）
+		- 接口（DP，HDMI，TYPEC，VGA），[显示器接口都有哪些](https://zhuanlan.zhihu.com/p/70673207)
+	- 投影
+    	- 亮度（流明）
+- 集群
+	- 

@@ -1,14 +1,33 @@
 # Software
 
-## Windows
+## System
 
-- *[Everything](Everything.md)，文件搜索
+- [windows](windows.md)<!-- [[windows]] --> 
+- [macos](macos.md)<!-- [[macos]] --> 
+- [Linux](Linux.md)<!-- [[Linux]] --> 
+- [Website](Website.md)<!-- [[Website]] --> 
+
+### Windows
+
+- *[Everything](Everything.md)<!-- [[Everything]] -->，文件搜索
 - Quicklook，预览
-- Powertoys，微软官方提供的小工具合集，支持alt space 
-- *[Snipaste](Snipaste.md)，截图+贴图
-- AutoHotKey， 快捷键
+- Powertoys，微软官方提供的小工具合集，支持<kbd>alt space</kbd>
+- *[Snipaste](Snipaste.md)<!-- [[Snipaste]] -->，截图+贴图
+- [AutoHotKey](AutoHotKey.md)<!-- [[AutoHotKey]] -->， 快捷键
 - 7+ Taskbar Tweaker, 窗口管理，程序不分组，关闭预览
 - Quicker, 键盘或鼠标触发扩展功能
+
+### MACOS
+
+- IINA，播放器
+- Parallels Desktop，虚拟机
+- Alfred，快速启动工具
+- HomeBrew，软件包管理工具
+- Downie，下载
+- Final Cut Pro，专业视频剪辑软件
+- CheatSheet，快捷键快速查看工具
+
+### Linux
 
 ## screen
 
@@ -18,15 +37,9 @@
 
 ## VM
 
-- [vmware](vmware.md)
-- [virtualbox](virtualbox.md)
+- Vmware
+- VirtualBox
 - [Hyper-V](hyperv.md)<!-- [[Hyper-V]] --> 
-
-## System
-
-- [windows](Windows.md)
-- [macos](macos.md)
-- [Linux](LInux.md)
 
 ## Doc
 
@@ -57,6 +70,7 @@
 
 1. IDM，付费
 2. Resilio Sync
+3. 迅雷
 
 ## 截图
 
