@@ -5,6 +5,12 @@
 [Windows CMD命令大全(值得收藏)_DOS/BAT_脚本之家](https://www.jb51.net/article/141568.htm)
 [Windows/Mac/Linux/ssh将shell内容输出到剪贴板_TaQini852的博客-CSDN博客_linux 输出到剪贴板](https://blog.csdn.net/smalosnail/article/details/120589901)
 
+mshta vbscript:msgbox("我是提示内容",64,"我是提示标题")(window.close)
+
+@REM [在BAT文件中编写语句然后能弹出一个对话框，对话框上显示想输入的话，应该怎么编写？_百度知道](https://zhidao.baidu.com/question/694101662099892124.html)
+
+msg %username%
+
 ```cmd
 @REM ping, n指定请求数, i生存时间, w超时时间
 ping 127.0.0.1

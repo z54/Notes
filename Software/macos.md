@@ -1,5 +1,21 @@
 # MACOS
 
+- [README](#readme)
+  - [shortcut](#shortcut)
+  - [change hostname](#change-hostname)
+
+## shortcut
+
+command-space: spotlight
+option-space: launchpad
+control-space: change input method
+
+Control–Command–Power button: force Restart
+
+## change hostname
+
+`sudo hostname mbp`
+
 ## 参考
 
 - [强制退出Mac程序的六种方法 - 丿灬安之若死 - CSDN博客](https://blog.csdn.net/mp624183768/article/details/80599064)
