@@ -2,7 +2,7 @@
 # README
 
 - [Software](/Software/Software.md)<!-- [[Software]] -->
-- [Hardware](Hardware.md)<!-- [[Hardware]] -->
+- [Hardware](hardware.md)<!-- [[Hardware]] -->
 
 ## Special Repo
 
