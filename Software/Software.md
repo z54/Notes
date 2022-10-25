@@ -9,10 +9,10 @@
 
 ### Windows
 
-- *[Everything](Everything.md)<!-- [[Everything]] -->，文件搜索
+- *[Everything](everything.md)<!-- [[Everything]] -->，文件搜索
 - Quicklook，预览
 - Powertoys，微软官方提供的小工具合集，支持<kbd>alt space</kbd>
-- *[Snipaste](Snipaste.md)<!-- [[Snipaste]] -->，截图+贴图
+- *Snipaste<!-- [[Snipaste]] -->，截图+贴图
 - [AutoHotKey](AutoHotKey.md)<!-- [[AutoHotKey]] -->， 快捷键
 - 7+ Taskbar Tweaker, 窗口管理，程序不分组，关闭预览
 - Quicker, 键盘或鼠标触发扩展功能
