@@ -1,10 +1,3 @@
----
-id: DXIiJmT28Q6aEh8bCWSkc
-title: Wsl
-desc: ''
-updated: 1639423509837
-created: 1639423509837
----
 
 [Windows](Windows.md)<!-- [[Windows]] --> 
 

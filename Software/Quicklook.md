@@ -1,10 +1,3 @@
----
-id: DIztgSWn9lMs6TTfgMKGZ
-title: README
-desc: ''
-updated: 1643231383546
-created: 1643231322585
----
 
 项目地址：GitHub - QL-Win/QuickLook: 为 Windows 带来 macOS “快速查看” 功能
 https://github.com/QL-Win/QuickLook
