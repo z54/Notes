@@ -1,8 +1,14 @@
 # MACOS
 
-- [README](#readme)
+- [MACOS](#macos)
   - [shortcut](#shortcut)
   - [change hostname](#change-hostname)
+  - [参考](#参考)
+  - [homebrew](#homebrew)
+  - [Shortcut](#shortcut-1)
+  - [Software](#software)
+  - [Config](#config)
+  - [FATAL](#fatal)
 
 ## shortcut
 
@@ -22,7 +28,7 @@ Control–Command–Power button: force Restart
 
 ## homebrew
 
-[brew(1) – The Missing Package Manager for macOS — Homebrew Documentation](https://docs.brew.sh/Manpage)
+[Homebrew Documentation](https://docs.brew.sh/Manpage)
 
 ```
 brew update
@@ -53,7 +59,7 @@ brew autoremove
 | 注销 | Shfit+Command+Q |
 | force Restart | Control–Command–Power button |
 
-- [强制退出Mac程序的六种方法 - 丿灬安之若死 - CSDN博客](https://blog.csdn.net/mp624183768/article/details/80599064)
+- [强制退出Mac程序的六种方法](https://blog.csdn.net/mp624183768/article/details/80599064)
 
 | 退出程序 | - |
 |------|---|
@@ -95,9 +101,12 @@ brew autoremove
 
 ## Software
 
-- Cinch，窗口切分：将窗口拖到边沿
 - homebrew，CLI库
+- Cinch，窗口切分：将窗口拖到边沿
 - parallels, 虚拟化软件
+- alfred
+- CheatSheet
+- IINA, video player
 
 ## Config
 
@@ -111,5 +120,3 @@ brew autoremove
 
 - Q：Chrome 浏览器被劫持
 - A：系统偏好设置，删除不认识的描述文件
-
-## MACOS
