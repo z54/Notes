@@ -57,6 +57,7 @@ wsl --list --verbose
 
 终止指定的发行版
 wsl --terminate debian
+wsl --terminate ubuntu
 
 注销或卸载 Linux 发行版
 wsl --unregister debian
