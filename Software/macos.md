@@ -31,19 +31,21 @@ Control–Command–Power button: force Restart
 [Homebrew Documentation](https://docs.brew.sh/Manpage)
 
 ```
-brew update
-brew upgrade
+brew -v # brew版本
 
-brew list
-brew casks
+brew list  # 列出所有已安装formula（软件包）和cask（应用包）
+brew list --versions # 所有已安装软件版本
 
 brew search docker
-
-brew install docker
+brew install wget
+brew install --cask firefox
 brew install --cask docker
-brew uninstall docker
 
-brew autoremove
+brew update  # 更新列表
+brew upgrade # 更新软件
+
+brew uninstall docker # 卸载
+brew autoremove # 卸载没有依赖条件的软件
 ```
 
 ## Shortcut
