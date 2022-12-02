@@ -9,51 +9,19 @@
 
 - [viatsko/awesome-vscode: 🎨 A curated list of delightful VS Code packages and resources.](https://github.com/viatsko/awesome-vscode#readme)
 
-## what is I need
-
 ```tinymind
 vscode
-    usage
-    extension
-    config
-    snippet
-    workspace
-    diagram
     env
+    usage
+    config
+        snippets
+        workspace
+    extension
 ```
 
-## config
+## install
 
-- [vscode.config](vscode.config.md)<!-- [[vscode.config]] -->
-
-## workspace
-
-- [vscode.workspace](vscode.workspace.md)<!-- [[vscode.workspace]] -->
-
-## env
-
-- [vscode.env](vscode.env.md)<!-- [[vscode.env]] -->
-
-## extension
-
-- [vscode.extension](vscode.extension.md)<!-- [[vscode.extension]] -->
-
-- c
-- python
-- tex
-- markdown
-
-## snippets
-
-- [vscode.snippets](vscode.snippets.md)<!-- [[vscode.snippets]] -->
-
-## diagram
-
-- [vscode.diagram](vscode.diagram.md)<!-- [[vscode.diagram]] -->
-
-## path
-
-start explorer %userprofile%\.vscode
+winget install Microsoft.VisualStudioCode
 
 ## usage
 
@@ -79,3 +47,29 @@ start explorer %userprofile%\.vscode
 
 - [Visual Studio Code 如何同时编辑多处_百度经验](https://jingyan.baidu.com/article/3052f5a1066eb597f31f86db.html)
 
+## config
+
+- [vscode.config](vscode.config.md)<!-- [[vscode.config]] -->
+
+### workspace
+
+- [vscode.workspace](vscode.workspace.md)<!-- [[vscode.workspace]] -->
+
+### env
+
+- [vscode.env](vscode.env.md)<!-- [[vscode.env]] -->
+
+### snippets
+
+- [vscode.snippets](vscode.snippets.md)<!-- [[vscode.snippets]] -->
+
+## extension
+
+- [vscode.extension](vscode.extension.md)<!-- [[vscode.extension]] -->
+
+start explorer %userprofile%\.vscode
+
+- c
+- python
+- tex
+- markdown
