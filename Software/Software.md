@@ -2,8 +2,8 @@
 
 ## System
 
-- [windows](windows.md)<!-- [[windows]] --> 
-- [macos](macos.md)<!-- [[macos]] --> 
+- [windows](../../100.Drafts/103.Branch/Microsoft/Windows.md)<!-- [[windows]] --> 
+- [macos](../../100.Drafts/103.Branch/MACOS/macos.md)<!-- [[macos]] --> 
 - [Linux](Linux.md)<!-- [[Linux]] --> 
 - [Website](Website.md)<!-- [[Website]] --> 
 
@@ -132,8 +132,8 @@
 
 ## System
 
-- [windows](Windows.md)
-- [macos](macos.md)
+- [windows](../../100.Drafts/103.Branch/Microsoft/Windows.md)
+- [macos](../../100.Drafts/103.Branch/MACOS/macos.md)
 
 ## VM
 
@@ -145,7 +145,7 @@
 
 1. WSL
 2. [Git](git.md), git命令支持, bash 环境支持
-3. [cmd](cmd.md)
+3. [cmd](../../100.Drafts/103.Branch/Microsoft/cmd.md)
 
 ## website
 
