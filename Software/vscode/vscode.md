@@ -25,15 +25,15 @@ winget install Microsoft.VisualStudioCode
 
 ## usage
 
-| 名字 | 快捷键 | - |
-|----|-----|--|
-| 显示所有快捷键 | `C-K C-S` | - |
-| 全部保存 | `C-K S` | - |
-| 多行同时修改 | `Ctrl-Alt-<up/down>` | - |
-| 选中所有行末尾出现光标 | `Shift-Alt-i` | - |
-| 页面中出现这个词的不同地方都出现光标 | `ctrl+shift+L或者ctrl+f2` | - |
-| 竖直的列光标，同时可以选中多列 | `shift+alt，再使用鼠标拖动` | - |
-| 手动选择多列 | `Ctrl Shift ↑/↓` | - |
+| 名字 | 快捷键 |
+|----|-----|
+| 显示所有快捷键 | `C-K C-S` |
+| 全部保存 | `C-K S` |
+| 多行同时修改 | `Ctrl-Alt-<up/down>` |
+| 选中所有行末尾出现光标 | `Shift-Alt-i` |
+| 页面中出现这个词的不同地方都出现光标 | `ctrl+shift+L或者ctrl+f2` |
+| 竖直的列光标，同时可以选中多列 | `shift+alt，再使用鼠标拖动` |
+| 手动选择多列 | `Ctrl Shift ↑/↓` |
 
 ### 替换
 

@@ -7,7 +7,7 @@
 Tool ->  option ->  General ->  check Show Search Everything folder context menu item
 Tool ->  option ->  General -> Keyboard ->  Show window Hotkey: Alt+E
 
-- [everything-cli.help](everything-cli.help)<!-- [[everything-cli.help]] --> 
+- [everything-cli.help](everything.cli.help)<!-- [[everything-cli.help]] --> 
 
 ## base
 
@@ -92,8 +92,9 @@ dupe: *.pdf d:
 
 @REM path调用
 path="C:\Program Files\Everything\";%path%;
-everything -s .pdf
-everything -s regex:.*.pdf
+path="C:\Tools\Everything-1.4.1.1022.x64";%path%;
+everything.exe -s .pdf
+everything.exe -s regex:.*.pdf
 ```
 
 ### cli

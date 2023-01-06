@@ -2,22 +2,39 @@
 
 ## System
 
-- [windows](../../100.Drafts/103.Branch/Microsoft/Windows.md)<!-- [[windows]] --> 
-- [macos](../../100.Drafts/103.Branch/MACOS/macos.md)<!-- [[macos]] --> 
-- [Linux](Linux.md)<!-- [[Linux]] --> 
-- [Website](Website.md)<!-- [[Website]] --> 
+- [Windows](Windows.md)	<!-- [[windows]] --> 
+- [MacOS](macos.md)		<!-- [[macos]] --> 
+- [Linux](Linux.md)		<!-- [[Linux]] --> 
 
-### Windows
+```tinymind
+System
+	文件
+	文本
+	文档
+	图片
+	视频
+	截图
+	阅读
+	网页
+	下载
+```
 
-- *[Everything](everything.md)<!-- [[Everything]] -->，文件搜索
-- Quicklook，预览
+## Windows
+
+[Awesome/README-cn.md at master · Awesome-Windows/Awesome · GitHub](https://github.com/Awesome-Windows/Awesome/blob/master/README-cn.md)
+
+- *Everything	<!-- [[Everything]] -->，文件搜索
+- Quicklook		<!-- [[Quicklook]] -->，<kbd>space</kbd>开启预览
 - Powertoys，微软官方提供的小工具合集，支持<kbd>alt space</kbd>
-- *Snipaste<!-- [[Snipaste]] -->，截图+贴图
-- [AutoHotKey](AutoHotKey.md)<!-- [[AutoHotKey]] -->， 快捷键
-- 7+ Taskbar Tweaker, 窗口管理，程序不分组，关闭预览
+- *Snipaste，截图+贴图
+- AutoHotKey 	<!-- [[AutoHotKey]] -->， 快捷键
+- 7+ Taskbar Tweaker, 窗口管理，程序不分组，关闭预览 (not support on Win11)
 - Quicker, 键盘或鼠标触发扩展功能
+- Hyper-V <!-- [[Hyper-V]] --> 
 
-### MACOS
+## MacOS
+
+[awesome-mac/README-zh.md at master · jaywcjlove/awesome-mac · GitHub](https://github.com/jaywcjlove/awesome-mac/blob/master/README-zh.md)
 
 - IINA，播放器
 - Parallels Desktop，虚拟机
@@ -27,9 +44,21 @@
 - Final Cut Pro，专业视频剪辑软件
 - CheatSheet，快捷键快速查看工具
 
-### Linux
+## Linux
 
-## screen
+[GitHub - inputsh/awesome-linux: A list of awesome projects and resources that make Linux even more awesome.](https://github.com/inputsh/awesome-linux#readme)
+
+- VIM
+- Emacs
+
+## Doc
+
+- excel	<!-- [[excel]] -->
+- word	<!-- [[word]] -->
+- mail	<!-- [[mail]] -->
+
+
+## multi-screen
 
 - mouse without borders，[Download](https://www.microsoft.com/en-us/download/details.aspx?id=35460), 一套键鼠操作局域网内多台PC
 - spacedesk，多屏幕
@@ -37,15 +66,8 @@
 
 ## VM
 
-- Vmware
+- VMWare
 - VirtualBox
-- [Hyper-V](hyperv.md)<!-- [[Hyper-V]] --> 
-
-## Doc
-
-- [excel](excel.md)<!-- [[excel]] -->
-- [word](word.md)<!-- [[word]] -->
-- [mail](mail.md)<!-- [[mail]] -->
 
 ## Remote Control
 
@@ -68,9 +90,9 @@
 
 ## 下载
 
-1. IDM，付费
+1. Internet Download Manager，付费
 2. Resilio Sync
-3. 迅雷
+3. ~~迅雷~~
 
 ## 截图
 
@@ -80,22 +102,23 @@
 
 ## Book READER
 
-- *[SumatraPDF]，pdf阅读器，支持类vim操作
-- [Calibre](calibre.md)<!-- [[Calibre]] -->，阅读器，支持mobi等文件格式
+- *SumatraPDF，pdf阅读器，支持类vim操作
+- Calibre <!-- [[Calibre]] -->，阅读器，支持mobi等文件格式
 
 ## Editor
 
-1. *[VSCode](VSCode.md)<!-- [[VSCode]] -->
+> 可离线
+
+1. *VSCode <!-- [[VSCode]] -->
 2. Sublime
 3. atom
 4. logseq
 5. Obsidian
 6. Notion
-7. flomo 闪念笔记, 必须登录
+7. ~~flomo~~ 闪念笔记, 必须登录
 8. Marginnote3
-9. OneNote
+9. OneNote，无限画布
 10. Typora
-11. Word
 12. Roam Research
 
 ## 文件
@@ -107,12 +130,13 @@
 
 ### 文件标签
 
-> 没有找到好的方式
+> - 不改变文件名
+> - 没有找到好的方式
 
 - TagExplorer 
 - XYplorer
-- ~~Tabbles~~, 数据库有限制
-- ~~everything~~批量修改文件名后搜索标签，标签格式`#tag`
+- ~~Tabbles~~，数据库有限制
+- ~~everything~~，批量修改文件名后搜索标签，标签格式`#tag`
 - ~~tagLyst~~，在库中将文件名追加标签后缀，如`git.exe`加上标签`软件`，库中文件名为`git#软件.exe`，需要修改文件名，`付费`
 
 ## Browser
@@ -123,87 +147,74 @@
 ## PIC
 
 - Picasa 3, 不再更新
-
-## Doc
-
-- [excel](excel.md)
-- [word](word.md)
-- [mail](Mail.md)
-
-## System
-
-- [windows](../../100.Drafts/103.Branch/Microsoft/Windows.md)
-- [macos](../../100.Drafts/103.Branch/MACOS/macos.md)
-
-## VM
-
-- vmware
-- virtualbox
-- Hyper-V
+- Adobe Bridge
 
 ## CLI
 
-1. WSL
+1. WSL <!-- [[wsl]] -->
 2. [Git](git.md), git命令支持, bash 环境支持
-3. [cmd](../../100.Drafts/103.Branch/Microsoft/cmd.md)
+3. [cmd](cmd.md) <!-- [[cmd]] -->
 
-## website
+# website
 
-### index
+## index
 
 [今日热榜官网](https://tophub.today/)
 
-### search
+## search
 
 - [Google](Google.md)
 
-### 电影
+## 电影
 
 - [IMDb](https://www.imdb.com/)
 - [豆瓣电影](https://movie.douban.com/)
 
-### 问答
+## 问答
 
 [Quora](https://www.quora.com/spaces?discover=true)
 [知乎](https://www.zhihu.com/explore)
 
-### shop
+## shop
 
 [Amazon](https://www.amazon.com/)
 
-### pic
+## pic
 
-## 游戏
+[deviantart](https://www.deviantart.com)
+
+
+# Games
 
 - Steam
 - 暴雪
 - wegame
 
-### 模拟经营-城市建造
+## 模拟经营-城市建造
 
 1. 都市天际线
 2. 模拟城市
 3. 虚拟城市（2D，09年）
 
-### 模拟经营-生存
+## 模拟经营-生存
 
 1. 饥荒
 2. [缺氧
 
-### 模拟经营-农场
+## 模拟经营-农场
 
 1. 疯狂农场_Farm Frenzy
 2. 模拟农场_Farming Simulator
 
-### 模拟经营-驾驶
+## 模拟经营-驾驶
 
 1. 欧卡
 
-### 动作
+## 动作
 
 1. 骑马与砍杀
 
-### RPG
+## RPG
 
 1. 无主之地
 2. GTA系列

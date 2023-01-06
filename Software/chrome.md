@@ -47,7 +47,7 @@ http://cn.bing.com/search?q=%s
 https://duckduckgo.com/?q=%s
 https://github.com/search?q=%s
 https://greasyfork.org/zh-CN/scripts?q=%s
-https://steamdb.info/instantsearch/?query=%s&ref=opensearch
+https://steamdb.info/instantsearch/?query=%s
 https://store.steampowered.com/search/?term=%s
 https://www.zhihu.com/search?type=content&q=%s
 https://www.baidu.com/s?wd=%s
