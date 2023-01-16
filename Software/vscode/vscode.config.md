@@ -11,6 +11,7 @@ vscode <br>setting
     C配置
     双击文本选择间断
     工作区配置
+    关闭受限模式
 ```
 
 ## 配置路径
@@ -85,4 +86,7 @@ start code %homepath%\AppData\Roaming\Code\User\settings.json
         "editor.quickSuggestions": true,
         "editor.defaultFormatter": "cipchk.vscode-markdown-compact-table-formatter",
     },
+
+    // 关闭受限模式
+    "security.workspace.trust.enabled": false,
 ```

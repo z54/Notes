@@ -7,7 +7,11 @@
 Tool ->  option ->  General ->  check Show Search Everything folder context menu item
 Tool ->  option ->  General -> Keyboard ->  Show window Hotkey: Alt+E
 
-- [everything-cli.help](everything.cli.help)<!-- [[everything-cli.help]] --> 
+[Searching - voidtools](https://www.voidtools.com/zh-cn/support/everything/searching/)
+
+[Command Line Interface - voidtools](https://www.voidtools.com/zh-cn/support/everything/command_line_interface/)
+
+[Everything搜索表达式 - 空桐树 - 博客园](https://www.cnblogs.com/kongtongshu/p/11248631.html)
 
 ## base
 
