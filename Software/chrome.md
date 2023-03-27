@@ -53,3 +53,14 @@ https://www.zhihu.com/search?type=content&q=%s
 https://www.baidu.com/s?wd=%s
 http://v.qq.com/x/search?opensearch=1&q=%s
 ```
+
+以下是从Chrome调用CMD的几种方式：
+
+使用Chrome插件：例如“Shell Command”插件，可以直接在Chrome中运行CMD命令。
+
+使用“chrome://net-internals/#q=proxy”命令：在Chrome地址栏中输入该命令，可以打开Chrome的网络内部工具，其中有一项叫做“Sockets”可以使用CMD命令。
+ 
+使用“chrome://flags/#enable-experimental-web-platform-features”命令：在Chrome地址栏中输入该命令，可以打开Chrome的实验性功能选项，其中有一项可以在Chrome中运行CMD命令。
+
+使用JavaScript代码：在Chrome的开发者工具中使用JavaScript代码可以调用CMD命令，并将结果显示在控制台中。
+
