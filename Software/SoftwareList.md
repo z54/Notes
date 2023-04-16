@@ -1,6 +1,4 @@
-# Software
-
-## System
+# System
 
 - [Windows](Windows.md)	<!-- [[windows]] --> 
 - [MacOS](macos.md)		<!-- [[macos]] --> 
@@ -19,24 +17,30 @@ System
 	下载
 ```
 
-## Windows
+# Windows
 
 [Awesome/README-cn.md at master · Awesome-Windows/Awesome · GitHub](https://github.com/Awesome-Windows/Awesome/blob/master/README-cn.md)
 
 - *Everything	<!-- [[Everything]] -->，文件搜索
+- *Snipaste，截图+贴图
 - Quicklook		<!-- [[Quicklook]] -->，<kbd>space</kbd>开启预览
 - Powertoys，微软官方提供的小工具合集，支持<kbd>alt space</kbd>
-- *Snipaste，截图+贴图
 - AutoHotKey 	<!-- [[AutoHotKey]] -->， 快捷键
-- 7+ Taskbar Tweaker, 窗口管理，程序不分组，关闭预览 (not support on Win11)
 - Quicker, 键盘或鼠标触发扩展功能
 - Hyper-V <!-- [[Hyper-V]] --> 
 
-## MacOS
+- 7+ Taskbar Tweaker, 窗口管理，程序不分组，关闭预览 (not support on Win11)
+
+- PE: Ventoy
+- ISO: UltraISO
+- 启动U盘: Rufus
+- 磁盘管理: aomei
+
+# MacOS
 
 [awesome-mac/README-zh.md at master · jaywcjlove/awesome-mac · GitHub](https://github.com/jaywcjlove/awesome-mac/blob/master/README-zh.md)
 
-- IINA，播放器
+- Player: IINA
 - Parallels Desktop，虚拟机
 - Alfred，快速启动工具
 - HomeBrew，软件包管理工具
@@ -44,32 +48,32 @@ System
 - Final Cut Pro，专业视频剪辑软件
 - CheatSheet，快捷键快速查看工具
 
-## Linux
+# Linux
 
 [GitHub - inputsh/awesome-linux: A list of awesome projects and resources that make Linux even more awesome.](https://github.com/inputsh/awesome-linux#readme)
 
 - VIM
 - Emacs
 
-## Doc
+# Doc
 
 - excel	<!-- [[excel]] -->
 - word	<!-- [[word]] -->
 - mail	<!-- [[mail]] -->
 
-
-## multi-screen
+# multi-screen
 
 - mouse without borders，[Download](https://www.microsoft.com/en-us/download/details.aspx?id=35460), 一套键鼠操作局域网内多台PC
 - spacedesk，多屏幕
 - Screen Rotat， 旋转屏幕
 
-## VM
+# VM
 
 - VMWare
 - VirtualBox
+- Hyper-V
 
-## Remote Control
+# Remote Control
 
 - RD client, 微软官方
 - sunlogin, 向日葵
@@ -77,7 +81,7 @@ System
 - teamviewer
 - Radmin
 
-## System Tool
+# System Tool - Win
 
 - Wiztree，空间查看
 - GeekUninstaller，卸载（卸载后检查注册表残留），`green, single`
@@ -88,47 +92,50 @@ System
 - OpenArk64， 重复快捷键查找
 - ~~SpaceSniffer~~， 空间查看，green, single，速度慢
 
-## 下载
+# 下载
 
 1. Internet Download Manager，付费
 2. Resilio Sync
-3. ~~迅雷~~
+3. ~~迅雷~~ `广告, 限速`
 
-## 截图
+# 截图
 
 1. Snipaster，F1截图，F3粘贴到屏幕，Ctrl+S保存截图，green
 2. Sharex, 滚动截图，OCR
 3. FastStone, 滚动截屏，录屏，付费
 
-## Book READER
+# Book READER
 
 - *SumatraPDF，pdf阅读器，支持类vim操作
 - Calibre <!-- [[Calibre]] -->，阅读器，支持mobi等文件格式
 
-## Editor
+# Editor
 
 > 可离线
 
 1. *VSCode <!-- [[VSCode]] -->
-2. Sublime
-3. atom
-4. logseq
-5. Obsidian
-6. Notion
-7. ~~flomo~~ 闪念笔记, 必须登录
-8. Marginnote3
-9. OneNote，无限画布
+2. Obsidian
+3. Notion
+4. Marginnote3
+5. OneNote，无限画布
+6. Sublime
+7. atom
+8. logseq
+9. ~~flomo~~ 闪念笔记, 必须登录
 10. Typora
-12. Roam Research
+11. Roam Research
+12. Trilium Notes
+13. Lattics
+14. 思源笔记
 
-## 文件
+# 文件
 
 1. total commander
 2. everything, 搜索
 3. ~~tagLyst~~，在库中将文件名追加标签后缀，如`git.exe`加上标签`软件`，库中文件名为`git#软件.exe`，需要修改文件名，`付费`
-4. ~~Files~~, WIN11风格文件管理器, 使用有卡顿感
+4. ~~Files~~, WIN11风格文件管理器, `卡顿`
 
-### 文件标签
+## 文件标签
 
 > - 不改变文件名
 > - 没有找到好的方式
@@ -139,27 +146,29 @@ System
 - ~~everything~~，批量修改文件名后搜索标签，标签格式`#tag`
 - ~~tagLyst~~，在库中将文件名追加标签后缀，如`git.exe`加上标签`软件`，库中文件名为`git#软件.exe`，需要修改文件名，`付费`
 
-## Browser
+# Browser
 
 - Google Chrome
 - Firefox
 
-## PIC
+# PIC
 
-- Picasa 3, 不再更新
+- Picasa 3, `不再更新`
 - Adobe Bridge
 
-## CLI
+# CLI
 
 1. WSL <!-- [[wsl]] -->
 2. [Git](git.md), git命令支持, bash 环境支持
 3. [cmd](cmd.md) <!-- [[cmd]] -->
+4. powershell
 
 # website
 
 ## index
 
 [今日热榜官网](https://tophub.today/)
+[A姐分享](https://www.ahhhhfs.com/)
 
 ## search
 
@@ -183,6 +192,9 @@ System
 
 [deviantart](https://www.deviantart.com)
 
+## AI
+
+[ChatGPT](https://chat.openai.com/)
 
 # Games
 
@@ -199,7 +211,7 @@ System
 ## 模拟经营-生存
 
 1. 饥荒
-2. [缺氧
+2. 缺氧
 
 ## 模拟经营-农场
 
